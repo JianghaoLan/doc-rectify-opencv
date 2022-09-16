@@ -470,7 +470,7 @@ if __name__ == "__main__":
         ('bad_example.jpg', (11, 14), (-1, 0))
         ]
 
-    img_info = img_list[3]   # ***修改此处索引以得到各图片矫正结果***
+    img_info = img_list[0]   # ***修改此处索引以得到各图片矫正结果***
 
     img_path, img_wh, start_vector = img_info
     img_path = os.path.join('imgs', img_path)
